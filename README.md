@@ -1,4 +1,4 @@
-<img src="http://montanacodeschool.com/wp-content/uploads/2015/06/MCS_LOGO_v1.png" width="200" align="right"/>
+<img src="http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png" width="200" align="right"/>
 
 ##Pokemon Index
 
@@ -12,7 +12,7 @@ The purpose of this day project is to introduce students to Angular router.
 * Fork and clone this repository. Complete all of the following steps. When you have finished, push your code into GitHub.
 
 * Create the files necessary to build your Angular app. Be sure to include index.html, app.js, mainCtrl.js, and mainServ.js. Organize these files in whatever folder structure you are most comfortable with.
-
+cd
 * Starting with your index.html, be sure to call in the Angular CDN, the UI-Router CDN, and all of your JavaScript files in script tags.
 
 * Establish your Angular app by associating the index.html file with your ng-app and ng-controller directives. Use the ng-app directive to name your app. Use the ng-controller directive to associate your mainCtrl with your html code.
