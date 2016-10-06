@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="pokemonApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pokemon Router</title>
+</head>
+
+<body ng-controller="mainCtrl">
+    <header>
+        <a ui-sref="home">Home</a>
+        <a ui-sref="list">List</a>
+        <a ui-sref="individual">Individual</a>
+    </header>
+    
+    <ui-view></ui-view>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="angular/app.js"></script>
+    <script src="angular/mainCtrl.js"></script>
+    <script src="angular/homeCtrl.js"></script>
+    <script src="angular/mainServ.js"></script>
+</body>
+
+</html>
